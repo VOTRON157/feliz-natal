@@ -1,0 +1,39 @@
+<!-- tomar agua -->
+<!DOCTYPE html>
+<html>
+<body>
+  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+<audio id="myAudio">
+  <source src="https://cdn.discordapp.com/attachments/789174768388800542/791813586707677194/Musica_de_Natal_-_Bate_o_Sino_Pequenino_-_Colecao_MiauMP3_160K_1.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<center>
+<h1>Clique no botão pra tocar a musiquinha</h1>
+
+<button onclick="playAudio()" type="button">Tocar música</button>
+<button onclick="pauseAudio()" type="button">Pausar música</button> 
+  </center>
+<!-- import the webpage's stylesheet -->
+<link rel="stylesheet" href="/style.css">
+<!-- import the webpage's client-side javascript file -->
+<script src="/script.js" defer></script>
+<!-- gif do papai noel abaixo -->
+<div>
+<img src="https://media.discordapp.net/attachments/789174768388800542/791468970548789278/santa1.gif" alt="bom velhinho" width="200" height="200"> 
+<img src="https://media.discordapp.net/attachments/789174768388800542/791476562406014986/car3.gif" alt"." width="200" height="200">
+  </div>
+  <center>
+  <p><strong><%= name %></strong> está te desejando um feliz natal!</p>
+    <br><br><br>
+    <h1>Esse período está relacionado com o tempo que os três reis magos, Baltazar, Gaspar e Melchior, levaram para chegar à Belém, cidade onde nasceu Jesus.</h1>
+    <br><br><br><br>
+    <form id="formulario">
+    <input type="text" id="campo" value="seu_nome">
+    <input type="submit" value="Compartilhe com os amigos">
+    </form>
+  </center>
+</body>
+</html>
