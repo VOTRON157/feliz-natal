@@ -1,0 +1,33 @@
+body {
+  background-image: url(https://cdn.glitch.com/0e9ee474-0a6b-448a-a777-47156aa1a8d1%2Fd0b4ddfb40698749d3903f64f70a5466.jpg?v=1608901825140);
+    background-repeat: no-repeat;
+}
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+h1 {
+  font-family: 'Langar', cursive;
+}
+@keyframes rainbow {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+button {
+  background-color: RED;
+  border-color: BLACK;
+  font-size: 20px;
+  animation-name: rainbow;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes _text {
+  from { color: WHITE; }
+  to { color: BLUE; }
+}
+p {
+  font-size: 50px;
+  animation-name: _text;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  border-radius: black;
+  font-family: 'Delius Swash Caps', cursive;
+}
